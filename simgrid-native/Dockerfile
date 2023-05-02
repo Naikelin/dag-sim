@@ -11,3 +11,4 @@ RUN apt install -y \
 RUN cd /source/simgrid.git && \
     cmake -DCMAKE_INSTALL_PREFIX=/opt/simgrid . && \
     make -j`nproc` && make install
+
